@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 import br.com.jgorozimbo.cursomc.domain.Categoria;
 import br.com.jgorozimbo.cursomc.dto.CategoriaDTO;
 import br.com.jgorozimbo.cursomc.repositories.CategoriaRepository;
-import br.com.jgorozimbo.cursomc.services.expection.DataIntegrityException;
-import br.com.jgorozimbo.cursomc.services.expection.ObjectNotFoundException;
+import br.com.jgorozimbo.cursomc.services.exception.DataIntegrityException;
+import br.com.jgorozimbo.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class CategoriaService {

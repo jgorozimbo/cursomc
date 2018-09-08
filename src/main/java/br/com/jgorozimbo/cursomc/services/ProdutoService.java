@@ -13,7 +13,7 @@ import br.com.jgorozimbo.cursomc.domain.Categoria;
 import br.com.jgorozimbo.cursomc.domain.Produto;
 import br.com.jgorozimbo.cursomc.repositories.CategoriaRepository;
 import br.com.jgorozimbo.cursomc.repositories.ProdutoRepository;
-import br.com.jgorozimbo.cursomc.services.expection.ObjectNotFoundException;
+import br.com.jgorozimbo.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class ProdutoService {

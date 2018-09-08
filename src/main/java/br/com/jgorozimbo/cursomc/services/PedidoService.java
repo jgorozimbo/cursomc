@@ -14,7 +14,7 @@ import br.com.jgorozimbo.cursomc.domain.enums.EstadoPagamento;
 import br.com.jgorozimbo.cursomc.repositories.ItemPedidoRepository;
 import br.com.jgorozimbo.cursomc.repositories.PagamentoRepository;
 import br.com.jgorozimbo.cursomc.repositories.PedidoRepository;
-import br.com.jgorozimbo.cursomc.services.expection.ObjectNotFoundException;
+import br.com.jgorozimbo.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class PedidoService {

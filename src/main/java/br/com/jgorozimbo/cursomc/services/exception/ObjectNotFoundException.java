@@ -1,4 +1,4 @@
-package br.com.jgorozimbo.cursomc.services.expection;
+package br.com.jgorozimbo.cursomc.services.exception;
 
 public class ObjectNotFoundException extends RuntimeException {
 

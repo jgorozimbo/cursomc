@@ -9,8 +9,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import br.com.jgorozimbo.cursomc.services.expection.DataIntegrityException;
-import br.com.jgorozimbo.cursomc.services.expection.ObjectNotFoundException;
+import br.com.jgorozimbo.cursomc.services.exception.DataIntegrityException;
+import br.com.jgorozimbo.cursomc.services.exception.ObjectNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {

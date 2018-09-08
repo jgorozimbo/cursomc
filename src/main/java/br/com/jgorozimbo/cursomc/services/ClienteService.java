@@ -20,8 +20,8 @@ import br.com.jgorozimbo.cursomc.dto.ClienteDTO;
 import br.com.jgorozimbo.cursomc.dto.ClienteNewDTO;
 import br.com.jgorozimbo.cursomc.repositories.ClienteRepository;
 import br.com.jgorozimbo.cursomc.repositories.EnderecoRepository;
-import br.com.jgorozimbo.cursomc.services.expection.DataIntegrityException;
-import br.com.jgorozimbo.cursomc.services.expection.ObjectNotFoundException;
+import br.com.jgorozimbo.cursomc.services.exception.DataIntegrityException;
+import br.com.jgorozimbo.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class ClienteService {
