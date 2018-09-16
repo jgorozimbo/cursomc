@@ -25,4 +25,4 @@
 /.nb-gradle/
 
 ### Properties ###
-.properties
+*.properties
