@@ -25,5 +25,4 @@
 /.nb-gradle/
 
 ### Properties ###
-/src/main/resources/.properties
 .properties
